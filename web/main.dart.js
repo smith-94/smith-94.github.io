@@ -44885,7 +44885,7 @@ ig(a,b){return new A.c4(new A.ls(b),t.oW)},
 mm(a){return!1}}
 A.NC.prototype={
 U(a){var s=A.bG().jp(),r=$.arV(),q=A.a([new A.Gs(),B.Hn,B.Hq,B.Hk],t.a9),p=A.a([new A.kq("en","")],t.ss)
-return new A.yv(r,$.aEJ(),"/login",A.aJu(),"my-value",s,q,p,!1,null)}}
+return new A.yv(r,$.aEJ(),"/login",A.aJu(),"\ubbfc\uc871 \ub300\ud1b5\ud569",s,q,p,!1,null)}}
 A.ahG.prototype={
 cw(){var s=this.a
 if(!s.am(0,$.vc))throw A.d(A.cu($.vc+u.K))
@@ -44957,7 +44957,7 @@ o=A.cc(8)
 n=A.cc(7)
 m=$.aK0
 l=t.F
-m=A.Aa(A.a([p,new A.Gu("SKT T1 \ubaa8\uc784",new A.aF(79*r/430,8*o/932,0,7*n/932),k),A.awH(new A.aF(93*r/430,18*A.cc(18)/932,0,18*A.cc(18)/932),new A.ajK(),m)],l),B.aT,B.hO,B.bk)
+m=A.Aa(A.a([p,new A.Gu("\ud654\uac1c\uc7a5\ud130(\ubbfc\uc871 \ub300 \ud1b5\ud569)",new A.aF(79*r/430,8*o/932,0,7*n/932),k),A.awH(new A.aF(93*r/430,18*A.cc(18)/932,0,18*A.cc(18)/932),new A.ajK(),m)],l),B.aT,B.hO,B.bk)
 r=A.cL(k,25*A.cc(25)/932,k)
 n=$.d2()
 n=A.iT(A.a([new A.cv(new A.aF(q,0,q,0),m,k),r,A.cL(A.axk(),k,420*n.a.a/430)],l),B.aT,B.aX,B.bk)
@@ -88485,11 +88485,11 @@ B.Jk=new A.aF(16,18,16,18)
 B.Jl=new A.aF(16,4,16,4)
 B.Jm=new A.aF(20,0,20,3)
 B.nF=new A.aF(20,20,20,20)
-B.Jn=new A.aF(45,10,30,30)
+B.Jn=new A.aF(45,0,30,30)
 B.Jo=new A.aF(4,0,4,0)
 B.a8L=new A.aF(4,4,4,5)
 B.Jp=new A.aF(6,6,6,6)
-B.Jq=new A.aF(70,60,60,0)
+B.Jq=new A.aF(70,0,60,0)
 B.Jr=new A.aF(8,0,8,0)
 B.Js=new A.aF(8,2,8,5)
 B.Jt=new A.aF(8,4,8,4)
