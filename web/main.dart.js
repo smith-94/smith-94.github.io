@@ -46296,7 +46296,7 @@ k=A.ck(i,19*A.cH(19)/932,i)
 j=m?new A.QI(new A.zx("chat",$.atX().ax.b,"test",i),i):A.ck(i,0,i)
 if(m)h=B.a0d
 else{m=A.bE(a,i,h).w
-m=new A.yk(new A.wg("/images/spring2.png"),A.bE(a,i,h).w.a.a+50,m.a.b*0.85,i)
+m=new A.yk(new A.wg("images/spring2.png"),A.bE(a,i,h).w.a.a+50,m.a.b*0.85,i)
 h=m}return A.avP(!0,A.m7(i,A.aBX(new A.K_(B.a0r,new A.ch(new A.aF(0,25*s/932,0,0),r,i),!0,i),new A.y(4294506744),A.ck(A.j4(A.a([o,n,l,k,j,h],q),B.b1,B.aW,B.bk),i,p),!0),B.ar,!1,i,i,i,i,i,i,i,i,i,i,i,i,i,i,new A.alr(a),i,i,i),!0)}}
 A.alr.prototype={
 $0(){A.y3(this.a).fT()},
