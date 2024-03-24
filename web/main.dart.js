@@ -9357,13 +9357,12 @@ ar3:function ar3(a,b,c){this.a=a
 this.b=b
 this.c=c},
 arg:function arg(a){this.a=a},
-arf:function arf(a,b,c,d,e,f){var _=this
+arf:function arf(a,b,c,d,e){var _=this
 _.a=a
 _.b=b
 _.c=c
 _.d=d
-_.e=e
-_.f=f},
+_.e=e},
 are:function are(a){this.a=a},
 arh:function arh(a){this.a=a},
 arq:function arq(a){this.a=a},
@@ -47585,34 +47584,40 @@ s.cx=r
 s.cx=B.c.hn(r,0.2,0.8)},
 $S:0}
 A.arg.prototype={
-$0(){var s,r,q,p="[DEFAULT]",o=this.a,n=o.f,m=n.a.a,l=o.x.a.a,k=o.y,j=k.a.a,i=$.bP,h=(i==null?$.bP=$.dI():i).ec(p)
-i=$.dx()
-A.ck(h,i,!0)
-s=A.kM(new A.cW(h))
-r=A.hz(s,s.gcp().eo("room"))
-s=$.bP
-h=(s==null?$.bP=$.dI():s).ec(p)
-A.ck(h,i,!0)
-i=A.kM(new A.cW(h))
-q=A.hz(i,i.gcp().eo("user-room"))
-if(!A.aNM(k.a.a)){A.jk("\uc0ad\uc81c \uc8fc\uae30\ub294 \uc22b\uc790 \ud615\uc2dd\ub9cc \uac00\ub2a5\ud569\ub2c8\ub2e4.")
-return}if(n.a.a.length===0){A.jk("\uc81c\ubaa9\uc740 \ube48\uac12\uc774 \ubd88\uac00\ud569\ub2c8\ub2e4.")
-return}if(m==="user"||m==="user-room"||m==="room"||m==="chat"){A.jk("\ud574\ub2f9 \uc774\ub984\uc73c\ub85c\ub294 \ub9cc\ub4e4\uc218 \uc5c6\uc2b5\ub2c8\ub2e4.")
-return}o.yd(m).cc(0,new A.arf(o,r,m,l,j,q),t.CE)},
+$0(){var s,r,q,p,o,n,m="[DEFAULT]",l={},k=this.a,j=k.f,i=j.a.a,h=k.x.a.a
+l.a=h
+s=l.b=k.y.a.a
+r=$.bP
+q=(r==null?$.bP=$.dI():r).ec(m)
+r=$.dx()
+A.ck(q,r,!0)
+p=A.kM(new A.cW(q))
+o=A.hz(p,p.gcp().eo("room"))
+p=$.bP
+q=(p==null?$.bP=$.dI():p).ec(m)
+A.ck(q,r,!0)
+r=A.kM(new A.cW(q))
+n=A.hz(r,r.gcp().eo("user-room"))
+if(h==="")l.a="0"
+if(!A.aNM(s===""?l.b="0":s)){A.jk("\uc0ad\uc81c \uc8fc\uae30\ub294 \uc22b\uc790 \ud615\uc2dd\ub9cc \uac00\ub2a5\ud569\ub2c8\ub2e4.")
+return}if(j.a.a.length===0){A.jk("\uc81c\ubaa9\uc740 \ube48\uac12\uc774 \ubd88\uac00\ud569\ub2c8\ub2e4.")
+return}if(i==="user"||i==="user-room"||i==="room"||i==="chat"){A.jk("\ud574\ub2f9 \uc774\ub984\uc73c\ub85c\ub294 \ub9cc\ub4e4\uc218 \uc5c6\uc2b5\ub2c8\ub2e4.")
+return}k.yd(i).cc(0,new A.arf(l,k,o,i,n),t.CE)},
 $S:0}
 A.arf.prototype={
 $1(a){var s,r,q,p,o=this,n=A.aQ(t.am)
-if(a){s=o.c
-r=t.N
-q=t.K
-p=o.b.G(0,A.at(["id",s,"enterpassword",o.d,"autodelete",o.e,"time",A.Sl(1000*Date.now())],r,q))
-q=o.f.G(0,A.at(["roomId",s,"userId",$.eD().ax.a,"auth","10","time",A.Sl(1000*Date.now())],r,q))
+if(a){s=o.d
 r=o.a
-s=r.aq(new A.are(r))
-r=r.c
-r.toString
-A.e5(r,!1).i2(null)
-n.G(0,A.bS([p,q,s,null],t.H))}return n},
+q=t.N
+p=t.K
+r=o.c.G(0,A.at(["id",s,"enterpassword",r.a,"autodelete",r.b,"time",A.Sl(1000*Date.now())],q,p))
+p=o.e.G(0,A.at(["roomId",s,"userId",$.eD().ax.a,"auth","10","time",A.Sl(1000*Date.now())],q,p))
+q=o.b
+s=q.aq(new A.are(q))
+q=q.c
+q.toString
+A.e5(q,!1).i2(null)
+n.G(0,A.bS([r,p,s,null],t.H))}return n},
 $S:80}
 A.are.prototype={
 $0(){var s=this.a
